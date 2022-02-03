@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*add a log in background pic*/
+.jumbotron{
+    background:url(image/login-back.png) center center;
+    background-size:cover;
+        height:900px;
+    width: auto;
+    
+    ;
+}
+/*set the size of logo*/
+.logo{
+    width: 500px;
+    height: 200x;
+}
+.login-box{
+    width: 100px;
+	position: absolute;
+	top: 59%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+        
+	
+}
+.login-box h1{
+    float:left;
+    font-size: 45px;
+    border-bottom: 16px solid #000000 ;
+    overflow: hidden;
+    margin-bottom: 1px;
+    padding: 1px 0;
+}
+.textbox{
+    width: 280%;
+    overflow: hidden;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 12px 0;
+    overflow: hidden;
+     margin: 12px 0;
+    border-bottom: 4px solid #000000 ;
+    overflow: hidden;
+}
+.textbox i {
+    width: 26px ;
+
+    float: left;
+    text-align: center;
+    
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    width: 80%;
+    
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 5px solid #000000;
+    color: black;
+    padding:  5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+        
+        
+}
